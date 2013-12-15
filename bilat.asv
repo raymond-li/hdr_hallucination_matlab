@@ -1,0 +1,7 @@
+function [ lowf_out,  ] = bilat( input_args )
+%BILAT Summary of this function goes here
+%   Detailed explanation goes here
+
+
+end
+
