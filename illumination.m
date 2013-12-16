@@ -8,7 +8,7 @@ function layer = illumination(image, Cue, Coe)
     for y=1:cols
       Y=luminace(image, x, y);
       W = weight(Y, Cue, Coe);
-      G = gaussian(image, x, y);
+      G = gausslobe(image, x, y);
       layer(x,y)=(1-W))*log(Y)+W*G;
     end
   end
