@@ -11,5 +11,7 @@ function [ hallucinated ] = hdr_hallucination( input_image, varargin )
 % varargin{1} = overexposed mask
 % varargin{2} = underexposed mask
 
+im=gamma22(im2double(imread(input_image)));
+
 end
 
