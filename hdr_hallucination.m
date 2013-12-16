@@ -13,5 +13,6 @@ function [ hallucinated ] = hdr_hallucination( input_image, varargin )
 
 im=gamma22(im2double(imread(input_image)));
 Y = luminance(im);
+
 end
 
