@@ -1,4 +1,4 @@
-function G=gausslobe(image, x, y)
+function [G] = gausslobe(image, x, y)
 G=0;
 
 
