@@ -1,6 +1,5 @@
-function Y_image =luminance( image )
+function Y =luminance( image, x, y )
 % Y(x)=r+2g+b
-[rows, cols, dim]= size(image);
-Y_image(:,:,:) = image(:,:,1)+2*image(:,:,2)+image(:,:,3);
+Y = image(x,y,1)+2*image(x,y,2)+image(x,y,3);
 
 end
