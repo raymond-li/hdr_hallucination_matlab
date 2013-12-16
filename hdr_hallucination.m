@@ -15,8 +15,13 @@ im=gamma22(im2double(imread(input_image)));
 Cue = 0.05;
 Coe = 0.85;
 
+%bilateral filtering
+
 %illumination layer
-illumination(Cue, Coe);
+layer = illumination(im, Cue, Coe);
+
+%texture synthesis
+texture(layer, Cue, Coe, im)
 
 end
 
