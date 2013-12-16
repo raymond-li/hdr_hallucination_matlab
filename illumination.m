@@ -1,4 +1,4 @@
-function layer = illumination(image, Cue, Coe)
+function [layer] = illumination(image, Cue, Coe)
   
   [rows, cols, dim]= size(image);
   layer=zeros(rows,cols);
