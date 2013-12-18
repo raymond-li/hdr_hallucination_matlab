@@ -15,7 +15,7 @@ mean(ind)
 x = x(ind);
 y = y(ind);
 
-figure(1), hold off, plot(x, y), axis image
+% figure(1), hold off, plot(x, y), axis image
 
 %% cracks2fragments
 function [fragments, junctions, neighbor_lookups] = cracks2fragments(crack_img, seg, isolation_check)

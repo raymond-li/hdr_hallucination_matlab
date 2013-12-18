@@ -1,0 +1,187 @@
+[33mcommit b593d594feea2eaf4476bc0d1d09d2037787c1c7[m
+Author: yu-han <yhnsun@gmail.com>
+Date:   Tue Dec 17 22:43:03 2013 -0600
+
+    updatee
+
+[33mcommit d3b31c68eacb3e4a7f528a4897a63a4a08ca50ba[m
+Author: yu-han <yhnsun@gmail.com>
+Date:   Tue Dec 17 22:32:43 2013 -0600
+
+    updates
+
+[33mcommit 7802e09417ac37b44401ef3773e90a712d055ca4[m
+Author: yu-han <yhnsun@gmail.com>
+Date:   Tue Dec 17 11:51:49 2013 -0600
+
+    update
+
+[33mcommit 154c4054c3635f7729da07564f68c9cdd1cb4f93[m
+Merge: f522815 5b0af47
+Author: Raymond <liraymond151@gmail.com>
+Date:   Tue Dec 17 11:39:47 2013 -0600
+
+    Merge branch 'master' of https://github.com/raymond-li/hdr_hallucination_matlab
+
+[33mcommit f522815619704515ab70c53f27d5e73ff153d7b8[m
+Author: Raymond <liraymond151@gmail.com>
+Date:   Tue Dec 17 11:39:11 2013 -0600
+
+    added fastbilat function
+
+[33mcommit 5b0af475c00affbff007e685947ca7ac028408d4[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:55:10 2013 -0600
+
+    Create texture.m
+
+[33mcommit 8173e5878b53b4b7e8be88a104fd445ff80f7687[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:48:33 2013 -0600
+
+    Update hdr_hallucination.m
+
+[33mcommit ede9b1618623e60dfd7608375a938d35ca726470[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:46:18 2013 -0600
+
+    Update weight.m
+
+[33mcommit 9890ee22c86091d0019357b839a7dd5b206837b1[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:45:58 2013 -0600
+
+    Update luminance.m
+
+[33mcommit 14b1e6ce4a7612874f5fff2c0abaf042d088291a[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:45:40 2013 -0600
+
+    Update gausslobe.m
+
+[33mcommit be9d7f461d9c0d7657d13d18a96375b81d7335c6[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:45:02 2013 -0600
+
+    Update illumination.m
+
+[33mcommit 5f034b0a1a485ae53693c0f949601a7c9e21c9a9[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:42:59 2013 -0600
+
+    Update illumination.m
+
+[33mcommit 3c4f6f1122d56dfbcee02648c41383d6cec86a83[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:42:48 2013 -0600
+
+    Create gausslobe.m
+
+[33mcommit f4ac94a3e1cd88d700a7cebfb688026bb7b7c869[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:41:34 2013 -0600
+
+    Create illumination.m
+
+[33mcommit fe8e1a80735e7ad0b46bdac6e2fa2d698830fec1[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:35:30 2013 -0600
+
+    Update luminance.m
+
+[33mcommit ad872109a0e4ef56ae930763f0f0880b6c1cd258[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:34:36 2013 -0600
+
+    Update hdr_hallucination.m
+
+[33mcommit 17283030037127bed6108eee3eb3d178466e2a96[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:32:49 2013 -0600
+
+    Create weight.m
+
+[33mcommit 4dddbd2fd12ddf8cb4b659a405353c2a1aafdaee[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:29:18 2013 -0600
+
+    Update hdr_hallucination.m
+
+[33mcommit 3f8ca2267cb3af607621417189a6aabcd8cddcbf[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:27:40 2013 -0600
+
+    Update hdr_hallucination.m
+
+[33mcommit bed92d328a0576a88646a8c99bf8005f9fce74c3[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:27:08 2013 -0600
+
+    Update luminance.m
+
+[33mcommit fb272c3e62d368410cd76a09551c72fe6eba622b[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:24:03 2013 -0600
+
+    Create luminance.m
+
+[33mcommit 736d1a83a3730cfd48d1fa98964be274f5bf9982[m
+Author: yhnsun <yhnsun@gmail.com>
+Date:   Mon Dec 16 15:22:17 2013 -0600
+
+    Update hdr_hallucination.m
+
+[33mcommit 60028932d868bde2e969b3122c36c39917188a5d[m
+Author: Raymond <liraymond151@gmail.com>
+Date:   Sun Dec 15 22:06:56 2013 -0600
+
+    added wood image
+
+[33mcommit a9ce9944e9c6b7bf5759cc0648bfa325c2d55d88[m
+Author: Raymond Li <liraymond151@gmail.com>
+Date:   Sun Dec 15 16:14:58 2013 -0600
+
+    gamma22 done. added wood.jpg, overriver.jpg for testing. Added fast bilateral filter function by Kunal. Test code tests bilateral filtering for parameter adjustments.
+
+[33mcommit e6c4842b5bb57aea2fa646e9cd144cf6ee528f9e[m
+Author: Raymond <raymond-li@users.noreply.github.com>
+Date:   Sat Dec 14 23:43:29 2013 -0600
+
+    Basic description of project.
+
+[33mcommit 71a11715bbe94906e6fcc8793c3c2ea3cdd40667[m
+Author: Raymond <raymond-li@users.noreply.github.com>
+Date:   Sat Dec 14 23:33:39 2013 -0600
+
+    Delete test.asv
+
+[33mcommit 01885464bda4e438db963bd4312cb13013154ad9[m
+Author: Raymond <raymond-li@users.noreply.github.com>
+Date:   Sat Dec 14 23:33:32 2013 -0600
+
+    Delete hdr_hallucination.asv
+
+[33mcommit 1bcb9fb2bf84d35b0bae66ad5a3f3403a936ad09[m
+Author: Raymond <raymond-li@users.noreply.github.com>
+Date:   Sat Dec 14 23:33:23 2013 -0600
+
+    Delete bilat.asv
+
+[33mcommit 764988ca6a830f6fb67838086f781a214f31dad5[m
+Merge: 283321a a62650d
+Author: Raymond <liraymond151@gmail.com>
+Date:   Sat Dec 14 23:31:39 2013 -0600
+
+    Merge branch 'master' of https://github.com/raymond-li/hdr_hallucination_matlab
+
+[33mcommit 283321ad43660e05d920ea0ba40300e6dc0b19f4[m
+Author: Raymond <liraymond151@gmail.com>
+Date:   Sat Dec 14 23:29:25 2013 -0600
+
+    Initial commit. No code, just skeleton/layout for project.
+
+[33mcommit a62650d73a281d8a6fcbd89d34fb42a4b96d9b73[m
+Author: Raymond <raymond-li@users.noreply.github.com>
+Date:   Sat Dec 14 23:27:44 2013 -0600
+
+    .asv files filtered

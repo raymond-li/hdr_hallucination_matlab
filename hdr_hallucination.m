@@ -1,4 +1,4 @@
-function [ hallucinated ] = hdr_hallucination( input_image, varargin )
+% function [ hallucinated ] = hdr_hallucination( input_image, varargin )
 %hdr_hallucination Main function to create hallucinated hdr image
 %Expects first arg as input image, optional second, third as region masks
 %   Steps:
@@ -11,18 +11,19 @@ function [ hallucinated ] = hdr_hallucination( input_image, varargin )
 % varargin{1} = overexposed mask
 % varargin{2} = underexposed mask
 
-image=gamma22(im2double(imread(input_image)));
+image=gamma22(im2double(imread('wood.jpg')));
 Cue = 0.05;
 Coe = 0.85;
-
-mask = getMask(image);
-%bilateral filtering
-
-%illumination layer
-layer = illumination(mask, image, Cue, Coe);
-
+[mask,poly] = getMask(image);
+mask = im2double(mask);
+[lowfq, highfq] = bilat(image);
+%%
+%illumination layer 
+[layer, W, Y, G] = illumination(mask, image , lowfq, Cue, Coe);
+%%
 %texture synthesis
-textured = texture(layer, Cue, Coe, image);
+textured = texture(layer, Cue, Coe, highfq);
 
-end
+
+% end
 

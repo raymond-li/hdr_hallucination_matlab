@@ -3,7 +3,10 @@
 %% m = Image 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-m = im2double(imread('mask.png'));
+%m = rgb2gray(im2double(imread('wood.jpg')));
+m = zeros(500, 500, 'double');
+m = m + .2;
+m(200:300, 200:300) = 2;
 m = log(m+1);
 tol = 1e-6;
 
