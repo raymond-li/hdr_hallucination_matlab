@@ -15,6 +15,7 @@ image=gamma22(im2double(imread('wood.jpg')));
 Cue = 0.05;
 Coe = 0.85;
 [mask,poly] = getMask(image);
+%[sourcemask,poly] = getMask(image);
 mask = im2double(mask);
 [lowfq, highfq] = bilat(image);
 %%
@@ -22,8 +23,10 @@ mask = im2double(mask);
 [layer, W, Y, G] = illumination(mask, image , lowfq, Cue, Coe);
 %%
 %texture synthesis
-textured = texture(layer, Cue, Coe, highfq);
-
+textured = texture(mask, highfq);
+figure;
+imshow(textured);
+%blend textured, layer
 
 % end
 
